@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img/wildarea1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Kanit", sans-serif;;
+
+  color: rgb(244, 241, 241);
+  text-shadow: black 1px 0 1px;
+}
+
+.title {
+  font-size: 4em;
+  margin: 2rem 0 0;
+}
+
+.description {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.disclaimer {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+img {
+  width: 35%
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search {
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border-radius: 5px;
+  height: 30px;
+  font-size: 1.5rem;
+  width: 20%;
+  margin: 1.5rem 0;
+}
+
+.pokeball {
+  width:45px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.bad {
+  color: red;
+}
+
+.good {
+  color: green;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 12px;
+  }
+
+  img {
+    width: 25%;
+  }
+}
+
+@media (min-width:701px) and (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+
+  img {
+    width: 25%;
+  }
+}
