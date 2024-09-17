@@ -33,7 +33,6 @@ function getData() {
         document.querySelector('#locations').classList.add('good')
         document.getElementById("locations").innerText = "";
         potentialPet.encounterInfo();
-        
       } else {
         document.getElementById("locations").innerText = "";
         document.querySelector('#results').classList.remove('good')
