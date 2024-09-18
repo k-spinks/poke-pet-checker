@@ -7,7 +7,7 @@
 ## How its made
 **Tech used:** HTML, CSS, JavaScript
 
-This web application allows users to enter a Pokémon name to make a request to the [Pokéapi](https://pokeapi.co/) to evaluate whether the Pokémon is a suitable house pet. Upon entering a valid name, the app fetches data such as the Pokémon types, weight height and encounter locations. It uses **object-oriented programming to encapsulate** this data and apply conditional logic to determine suitability based on potentially dangerous types and physical characteristics.
+This web application allows users to enter a Pokémon name to make a request to the [Pokéapi](https://pokeapi.co/) to evaluate whether the Pokémon is a suitable house pet. Upon entering a valid name, the app fetches data such as the Pokémon types, weight height, and encounter locations. It uses **object-oriented programming to encapsulate** this data and apply conditional logic to determine suitability based on potentially dangerous types and physical characteristics.
 
 The app dynamically updates the user interface based on the results, showing whether the Pokémon is a good fit as pet and providing a list of encounter location for valid pets. The key techniques used for this app include **API fetching, DOM manipulation, string/array manipulation, and error handling,** ensuring a smooth user experience with real-time feedback on the Pokémon suitability.
 
