@@ -4,7 +4,7 @@
 
 ![Poké-Pet-Checker home screen](/img/PPC1.png)
 
-## How its made
+## How it's made
 **Tech used:** HTML, CSS, JavaScript
 
 This web application allows users to enter a Pokémon name to make a request to the [Pokéapi](https://pokeapi.co/) to evaluate whether the Pokémon is a suitable house pet. Upon entering a valid name, the app fetches data such as the Pokémon types, weight height, and encounter locations. It uses **object-oriented programming to encapsulate** this data and apply conditional logic to determine suitability based on potentially dangerous types and physical characteristics.
@@ -25,7 +25,7 @@ One potential optimization to create a better user experience would be to notify
 1. DOM Manipulation and Event Handling
   - The Pokémon's name is fetched from the input field using DOM querying (`document.querySelector("input")`) and this name is cleaned up using string manipulation (`replaceAll()` and `toLowerCase()`).
 2. API Fetching
- - The fetch request returns a promise which is handled using `.then()` to parse the response data and `.catch()` to handle potential errors, such as invalid Pokémon names or network issues. Promises ensure that the code remains non-blocking while waiting for the API response.
+ - The fetch request returns a promise handled using `.then()` to parse the response data and `.catch()` to handle potential errors, such as invalid Pokémon names or network issues. Promises ensure that the code remains non-blocking while waiting for the API response.
 3. Object-Oriented Programming (OOP)
  - Once the Pokémon data is retrieved, a new instance of the `PokemonInfo` class is created. This class inherits from `PokePet`, demonstrating class inheritance, where the `PokemonInfo` class extends the base functionality of `PokePet`
 4. Array and String Manipulation
